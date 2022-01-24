@@ -1,0 +1,76 @@
+body {
+  padding: 1rem;
+  background-color: #FAFAFA;
+}
+.navbar {
+  height: 60px;
+  background-color: #FFF !important;
+}
+.logo {
+  margin-left: 12rem;
+}
+.search-bar {
+  border-radius: 8px;
+  background: rgba(var(--bb2,239,239,239),1) !important;
+  font-size: 16px;
+  border: 0;
+  height: 36px !important;
+  width: 268px !important;
+}
+::placeholder{
+  text-align: left;
+  font-size: 14px;
+  color: gray;
+  font-family: FontAwesome 5;
+  word-spacing: 0.25rem;
+}
+.nav-item {
+  font-size: 1.5rem !important;
+  color: #FFF;
+}
+.nav-link {
+  margin-right: 24px;
+  padding: 0 !important;
+}
+.postuserfont {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+}
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+.middlearea {
+  max-height: 200px !important ;
+  padding-top: 75px;
+  margin-left: 175px;
+}
+.fa-ellipsis {
+  float: right;
+}
+.rightpanel {
+  position: fixed;
+  top: 94px;
+  background-color: #FAFAFA;
+  border: none;
+}
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+.card-header, .card-footer {
+  background-color: white !important;
+}
